@@ -36,3 +36,40 @@
     transform: rotate(360deg);
   }
 }
+
+/******************** NAV LINKS ***************************/
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+:root{
+  --whitecolor : #fff;
+  --electricblue : #7df9ff;
+  --graybordertop : rgba(255,255,255,0);
+}
+
+body{
+  font-family: "Crimson Text" sans-serif;
+}
+nav a.nav-link{
+  font-weight: 200;
+  font-size: medium;
+  letter-spacing: 0.0375rem;
+  cursor: pointer;
+}
+
+nav ul li{
+  text-transform: uppercase;
+}
+
+.navbar-nav > li > a{
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+  color: var(--whitecolor) !important;
+  border-top: 3px solid var(--graybordertop);
+}
+
+.navbar-nav > li > a.active,  .navbar-nav > li > a.active:focus{
+  border-top: 3px solid var(--electricblue );
+} 
+
+.navbar-nav > li > a:hover{
+  border-top: 3px solid var(--electricblue );
+}
