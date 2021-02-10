@@ -5,6 +5,7 @@ import Navbar from "./Components/navbar.js";
 import Header from "./Components/Header";
 import AboutMe from "./Components/aboutMe";
 import Services from "./Components/Services.js";
+import Experience from "./Components/Experience.js";
 function App() {
   return (
     <>
@@ -35,6 +36,7 @@ function App() {
       <Header/>
       <AboutMe/>
       <Services/>
+      <Experience/>
     </>
   );
 }
