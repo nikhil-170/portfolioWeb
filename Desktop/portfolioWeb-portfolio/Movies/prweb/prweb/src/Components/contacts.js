@@ -33,10 +33,10 @@ const Contacts = () => {
           }).catch(err => console.error(`something went wrong ${err}`));
       }
     return (
-        <div className="contacts">
+        <div id ="Contact" className="contacts">
             <div className="text-center">
             <h1>Contact me</h1>
-            <p>please fill out the form and describe the </p>
+            <p id="contactsmessage">Hey! Get in touch with me. Drop me an Email</p>
             <span className="success-message">{successMessage}</span>
             </div>
             <div className="container">

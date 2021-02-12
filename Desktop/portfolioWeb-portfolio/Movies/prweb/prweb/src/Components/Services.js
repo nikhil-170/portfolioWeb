@@ -5,39 +5,35 @@ import { faDatabase, faDesktop, faFileCode, faServer } from '@fortawesome/free-s
 
 const Services = () => {
     return (
-        <div className="services">
-            <h1 className = "py-5">industry knowledge</h1>
+        <div id= "services"className="services">
+            <h1 className = "py-5">technical skills</h1>
             <div className="container">
                 <div className="row">
                     <div className = "col-md-3 col-sm-6">
                         <div className= "box">
-    <div className="circle"><FontAwesomeIcon className = "icon" icon ={faFileCode} size= "2x"/></div>
-                            <h3>Web Design</h3>
-                            <p>I approch each project individually</p>
+                            <h4>Languages</h4>
+                            <p>Java<br/> Python<br/> JavaScript<br/> Kotlin<br/> SQL</p>
                         </div>
                     </div>
                     {/* -- */}
                     <div className = "col-md-3 col-sm-6">
                         <div className= "box">
-    <div className="circle"><FontAwesomeIcon className = "icon"icon ={faDatabase} size= "2x"/></div>
-                            <h3>DataBase Administator</h3>
-                            <p>I approch each project individually</p>
+                            <h4>DataBases/<br/>Frameworks</h4>
+                            <p>MySQL <br/>MongoDB<br/>MS SQL SERVER<br/>Spring Boot <br/>Express.js </p>
                         </div>
                     </div>
                     {/* -- */}
                     <div className = "col-md-3 col-sm-6">
                         <div className= "box">
-    <div className="circle"><FontAwesomeIcon className = "icon"icon ={faAndroid} size= "2x"/></div>
-                            <h3>Android Development</h3>
-                            <p>I approch each project individually</p>
+                            <h4>Web/Mobile</h4>
+                            <p>NodeJS<br/>ReactJS<br/> HTML5<br/> CSS3<br/>AWS<br/> EC2</p>
                         </div>
                     </div>
                     {/* -- */}
                     <div className = "col-md-3 col-sm-6">
                         <div className= "box">
-    <div className="circle"><FontAwesomeIcon className = "icon"icon ={faServer} size= "2x"/></div>
-                            <h3>ETL Developer</h3>
-                            <p>I approch each project individually</p>
+                            <h4>Other</h4>
+                            <p>Android SDK<br/> REST API<br/> Git<br/> Informatica<br/> Cognos<br/> Hive<br/> Linux/Unix</p>
                         </div>
                     </div>
                 </div>

@@ -8,6 +8,10 @@ import Services from "./Components/Services.js";
 import Experience from "./Components/Experience.js";
 import Portfolio from "./Components/Portfolio.js";
 import ContactMe from "./Components/contacts.js";
+import Footer from "./Components/Footer.js";
+import Profiles from "./Components/Profiles.js";
+import FooterTwo from "./Components/Footertwo";
+
 function App() {
   return (
     <>
@@ -41,6 +45,8 @@ function App() {
       <Experience/>
       <Portfolio/>
       <ContactMe/>
+      <Profiles/>
+      <FooterTwo/>
     </>
   );
 }
