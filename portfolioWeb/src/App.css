@@ -1,0 +1,662 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/******************** NAV LINKS ***************************/
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+:root{
+  --whitecolor : #fff;
+  --electricblue : #7df9ff;
+  --darkcolour :rgb(52,58,64);
+  --graybordertop : rgba(255,255,255,0);
+  --lightgray: #f4f4f4;
+  --primarygrey : #ccd1d9;
+  --darkgrey:#666666;
+  --primaryblack :#000000;
+  --primaryred: #ef4035;
+  --primaryGreen : #34e734;
+}
+
+body{
+  font-family: "Crimson Text", sans-serif !important;
+}
+
+nav{
+  z-index: 2;
+}
+nav a.nav-link{
+  font-weight: 200;
+  font-size: medium;
+  letter-spacing: 0.0375rem;
+  cursor: pointer;
+}
+
+nav ul li{
+  text-transform: uppercase;
+}
+
+.navbar-nav > li > a{
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+  color: var(--whitecolor) !important;
+  border-top: 3px solid var(--graybordertop);
+}
+
+.navbar-nav > li > a.active,  .navbar-nav > li > a:focus{
+  border-top: 3px solid var(--electricblue );
+} 
+
+.navbar-nav > li > a:hover{
+  border-top: 3px solid var(--electricblue );
+}
+/******************** header ***************************/
+.header-wraper{
+  position: relative;
+  background: url(altumcode-dMUt0X3f59Q-unsplash.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.main-info {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  z-index: 1;
+}
+
+.main-info h1{
+  color: var(--electricblue);
+  text-transform: uppercase;
+
+}
+@media(max-width: 768px){
+  .main-info h1{
+    font-size: 1.75rem !important;
+  }
+}
+
+/******************** typed ***************************/
+.typed-text {
+  font-size: 2rem;
+  color: rgb(24, 216, 88);
+  text-transform: uppercase;
+}
+
+/******************** HEADER MAIN OFFER BUTTON ***************************/
+.btn-main-offer {
+  border: 1px solid var(--electricblue);
+  text-transform: uppercase;
+  border-radius: 0;
+  padding: 10px 12px 12px 12px;
+  color: var(--whitecolor);
+  background: none;
+  margin: 2rem;
+}
+
+.btn-main-offer:hover{
+  text-decoration: none;
+  background-color:var(--electricblue);
+  color: black;
+  transition: .2s ease-in-out;
+}
+/******************** Particles***************************/
+.tsparticles-canvas-el{
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  z-index: 1;
+}
+@media(max-width: 768px){
+  .particles-canvas {
+    display: none;
+  }
+}
+
+/******************** About Me ***************************/
+
+.photo-wrap{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.profile-img{
+  width: 28rem;
+  border-radius:50%;
+  padding: .3rem;
+  border: 1px solid green;
+  margin-top: 4.5rem;
+}
+
+.aboutMeHeading{
+  text-transform: uppercase;
+  color: darkcyan;
+  text-align: center;
+  text-decoration:wavy;
+}
+
+.aboutPara{
+  text-align: justify;
+  font-weight: 900;
+  font-size: 1.5rem;
+  
+}
+
+
+@media(max-width: 468px){
+  .profile-img{
+    width: 10rem;
+  }
+}
+
+
+/******************** services ***************************/
+.services{
+  text-align: center;
+  padding-bottom: 2rem;
+  background: var(--lightgray);
+
+}
+
+.services h1{
+  color: darkcyan;
+  text-transform: uppercase;
+  margin-top: 10rem;
+}
+
+.services h3{
+  color: #5b3ad3;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+.services p{
+  font-weight: 500;
+  font-size:20px;
+  text-align:inherit;
+}
+
+.services h4{
+  color: #5b3ad3;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+
+.services .circle{
+  position: relative;
+  margin: 0.375rem auto;
+  background-color: var(--electricblue);
+  border-radius: 50%;
+  width: 3.125rem;
+  height: 3.125rem;
+
+}
+
+.services .icon{
+  font-size: 1.4rem;
+  color: var(--whitecolor);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.services .box{
+  height: 16rem;
+  border-bottom: 5px solid var(--electricblue);
+  padding: 0.625rem;
+  margin-bottom: 1.875rem;
+  background: var(--whitecolor);
+  transition: 0.3s ease-in-out;
+}
+
+.services .box:hover{
+  background: var(--electricblue);
+  border-bottom: 5px solid var(--darkcolour);
+}
+
+.services .box:hover .icon{
+  color: var(--darkcolour);
+}
+
+
+.services .box:hover .circle{
+  background: var(--whitecolor);
+}
+
+
+.services .box:hover .p{
+  color: var(--whitecolor);
+}
+
+/******************** Experience ***************************/
+
+.experience{
+  padding: 0.7rem;
+  background: var(--lightgray);
+}
+.experience-wrapper{
+  position: relative;
+  padding: 3.125rem 0;
+  overflow: hidden;
+}
+
+.experience h1{
+  text-transform: uppercase;
+  color:darkcyan;
+}
+
+.experience-wrapper::before{
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 50%;
+  margin-left: -0.0625rem;
+  width: 0.125rem;
+  height: 100%;
+  background: var(--primarygrey);
+  z-index: 1;
+}
+
+.timeline-block{
+  width: calc(50% + 0.5rem);
+  display: flex;
+  justify-content: space-between;
+  clear: both;
+}
+
+.timeline-block-right{
+  float: right;
+}
+
+.timeline-block-left{
+  float: left;
+  direction: rtl;
+}
+
+.marker{
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  border:0.3125rem solid var(--darkcolour);
+  background: var(--electricblue);
+  margin-top: 0.625rem;
+  z-index: 1;
+}
+
+.timeline-content{
+  width: 95%;
+  padding: 0.9375rem;
+  color: var(--darkgrey);
+  direction: ltr;
+}
+
+.timeline-content h3 {
+  margin-top: 0.3125rem;
+  color:blue;
+  font-weight: 900;
+}
+
+.timeline-content h5 {
+  margin-top: 0.3125rem;
+  color: var(--darkgrey);
+}
+.timeline-content p{
+  color: var(--primaryblack);
+  display: list-item;
+}
+
+.experiencepara{
+  text-align: justify;
+}
+
+/*----------------------MEDIA-------------------*/
+@media(max-width: 768px){
+  .experience .container{
+    padding-left: 0;
+  }
+  .experience-wrapper::before{
+    left: 0.5rem;
+    margin-bottom: 1.875rem;
+  }
+  
+  .timeline-block-right{
+    float: none;
+    width: 100%;
+  }
+
+  .timeline-block-left{
+    float: none;
+    direction: ltr;
+    width: 100%;
+  }
+
+  .experiencepara{
+    text-align: justify;
+  }
+}
+
+/******************** Portfolio ***************************/
+.portfolio-wrapper{
+  background: var(--lightgray);
+  padding: 3rem 0;
+}
+
+.portfolio-wrapper h1{
+  color: darkcyan;
+}
+.paraforprojects{
+  color: #000000;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 500;
+  padding: 0.25rem;
+}
+
+.portfolio-image{
+  width: 15rem;
+  border: 1px solid var(--electricblue);
+  padding: 0 0.25rem;
+}
+
+.portfolio-image-box{
+  position: relative;
+  margin: 1rem;
+}
+
+.popuppara{
+  display: list-item;
+  text-align: justify;
+}
+
+/******************** Overflow Box ***************************/
+.overflow{
+  position: absolute;
+  opacity: 0;
+  background: var(--primaryblack);
+  width: 15rem;
+  height: 8.5rem;
+  top: 0;
+  border: 1px solid var(--primaryred);
+  cursor: pointer;
+
+}
+
+.portfolio-image-box:hover .overflow{
+  opacity: 60%;
+  transition: 0.3s ease-in-out;
+}
+
+.portfolio-icon{
+  position: absolute;
+  opacity: 0;
+  margin-left: -8rem;
+  margin-top: 2.6rem;
+  color: var(--electricblue);
+  font-size: 1.5rem;
+}
+
+.portfolio-image-box:hover .portfolio-icon{
+  opacity: 70%;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+.popupbox-wrapper{
+  margin-top: 5rem;
+
+}
+
+/******************** Popupbox Box ***************************/
+.portfolio-image-popupbox{
+  width: 45rem;
+  padding: 0 0.5rem;
+
+}
+
+.hyper-link{
+  cursor: pointer;
+  color:cornflowerblue
+}
+
+.hyper-link:hover {
+  color:blue;
+}
+
+
+/******************** Media for Popupbox Box ***************************/
+@media(max-width: 768px){
+  .portfolio-image-popupbox{
+    width: 100%;
+  }
+}
+
+@media(max-height: 570px){
+  .popupbox-wrapper{
+    height: 100% ;
+
+  }
+  .portfolio-image-popupbox{
+    width: 60%;
+  }
+}
+
+@media(max-height: 280px){
+  .popupbox-wrapper{
+    height: 90%;
+
+  }
+  .portfolio-image-popupbox{
+    width: 30%;
+  }
+}
+
+/******************** Contacts ***************************/
+.contacts{
+  background: var(--primarygrey);
+  padding: 3rem 0;
+}
+
+.contacts h1{
+  color: darkcyan;
+  padding: 1.3rem 0;
+  text-transform: uppercase;
+}
+
+.contacts p{
+  color: #666666;
+  font-size: 1.2rem;
+}
+
+#contactsmessage{
+  margin-top: -1.5rem;
+}
+
+/******************** Inputs ***************************/
+.contacts input, .contacts textarea{
+  width: 100%;
+  box-sizing: border-box;
+  background: none;
+  resize: none;
+  border: 0;
+  border-bottom: 0.125rem solid var(--darkgrey);
+  border-radius: 0;
+  color: var(--electricblue);
+  outline: 0 !important;
+  box-shadow: none !important;
+  top: 0;
+  margin-bottom: 1rem;
+  padding-left: 0 !important;
+}
+
+.contacts .container{
+  padding: 4rem 0;
+}
+
+.contacts input:focus, .contacts textarea:focus{
+  background: transparent;
+  color:black;
+  border-bottom: 0.125rem solid var(--darkgrey);
+}
+
+.contacts textarea{
+  height: 12.2rem !important;
+  color: #000000;
+}
+
+.contact-btn{
+  margin:1rem 0 0 0;
+  width: 100%;
+  background: darkcyan;
+}
+
+.line{
+  position: relative;
+  width: 0;
+  height: 0.125rem;
+  background: var(--electricblue);
+  display: inline-block;
+  top: -0.8rem;
+}
+
+input:focus+.line, textarea:focus+.line{
+  width: 100%;
+  transition: width 0.5s ease-in-out;
+}
+
+input.form-control{
+  margin: -0.3rem 0;
+}
+
+textarea.form-control{
+  margin: -0.3rem 0;
+}
+
+.error-message{
+  color: var(--whitecolor);
+  background: var(--primaryred);
+  text-align: left;
+}
+ 
+.success-message{
+  font-weight: 900;
+  color: var(--primaryGreen);
+}
+/*---------------- media ---------------------*/
+@media(max-width: 768px){
+
+  .contacts{
+    overflow-x: hidden;
+  }
+  .contacts .container{
+    padding:0 1rem;
+  }
+
+  .contacts p{
+    padding: 0 0.4rem;
+  }
+}
+
+/*---------------- Footer ---------------------*/
+.footer{
+  background: var(--primaryblack);
+  color: var(--primarygrey);
+  padding: 3rem;
+}
+
+.footer a{
+  text-decoration: none;
+  color: var(--whitecolor);
+}
+
+.footer a:hover{
+  text-decoration: none;
+  color: var(--electricblue);
+  cursor: pointer;
+}
+
+.footer p{
+  margin-bottom: 0;
+  align-content: flex-start;
+}
+
+.col-lg-3 col-md-2 col-sm-6{
+  float:right;
+  align-content: flex-end;
+}
+
+/*-----FOOTERTWO--------*/
+.footer-style {
+  background-color: #101018f8;
+  color: #fff;
+  font-size: 1.5em;
+  border: 2px solid #101018f8;
+  border-top-left-radius: 3px;
+}
+
+/*---------------- Profiles ---------------------*/
+
+#nikhiljumbotron{
+  background-color: var(--primarygrey);
+  margin-top: -3.5rem;
+}
+#profilesheading{
+  text-transform: uppercase;
+  color: darkcyan;
+  padding-bottom: 0rem;
+}
+
+#nikhilcontact{
+  background-color: var(--primarygrey);
+  padding-bottom: 0;
+  margin-bottom: -4rem;
+}
+
+.m-2{
+  padding: 0.75rem;
+  padding-top: 0rem;  
+  cursor: pointer;
+}
