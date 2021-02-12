@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/nikhil-170/portfolioWeb/static/css/main.d80e000c.chunk.css",
-    "main.js": "/nikhil-170/portfolioWeb/static/js/main.30e59363.chunk.js",
-    "main.js.map": "/nikhil-170/portfolioWeb/static/js/main.30e59363.chunk.js.map",
+    "main.js": "/nikhil-170/portfolioWeb/static/js/main.3d6602e7.chunk.js",
+    "main.js.map": "/nikhil-170/portfolioWeb/static/js/main.3d6602e7.chunk.js.map",
     "runtime-main.js": "/nikhil-170/portfolioWeb/static/js/runtime-main.a560884d.js",
     "runtime-main.js.map": "/nikhil-170/portfolioWeb/static/js/runtime-main.a560884d.js.map",
     "static/css/2.a894a7ba.chunk.css": "/nikhil-170/portfolioWeb/static/css/2.a894a7ba.chunk.css",
-    "static/js/2.5833f52a.chunk.js": "/nikhil-170/portfolioWeb/static/js/2.5833f52a.chunk.js",
-    "static/js/2.5833f52a.chunk.js.map": "/nikhil-170/portfolioWeb/static/js/2.5833f52a.chunk.js.map",
+    "static/js/2.09148ced.chunk.js": "/nikhil-170/portfolioWeb/static/js/2.09148ced.chunk.js",
+    "static/js/2.09148ced.chunk.js.map": "/nikhil-170/portfolioWeb/static/js/2.09148ced.chunk.js.map",
     "static/js/3.90ca9f6c.chunk.js": "/nikhil-170/portfolioWeb/static/js/3.90ca9f6c.chunk.js",
     "static/js/3.90ca9f6c.chunk.js.map": "/nikhil-170/portfolioWeb/static/js/3.90ca9f6c.chunk.js.map",
     "index.html": "/nikhil-170/portfolioWeb/index.html",
     "static/css/2.a894a7ba.chunk.css.map": "/nikhil-170/portfolioWeb/static/css/2.a894a7ba.chunk.css.map",
     "static/css/main.d80e000c.chunk.css.map": "/nikhil-170/portfolioWeb/static/css/main.d80e000c.chunk.css.map",
-    "static/js/2.5833f52a.chunk.js.LICENSE.txt": "/nikhil-170/portfolioWeb/static/js/2.5833f52a.chunk.js.LICENSE.txt",
+    "static/js/2.09148ced.chunk.js.LICENSE.txt": "/nikhil-170/portfolioWeb/static/js/2.09148ced.chunk.js.LICENSE.txt",
     "static/media/App.css": "/nikhil-170/portfolioWeb/static/media/altumcode-dMUt0X3f59Q-unsplash.ea32b5ab.jpg",
     "static/media/dreamteam.bc04be34.jpg": "/nikhil-170/portfolioWeb/static/media/dreamteam.bc04be34.jpg",
     "static/media/gosport.f8495cea.jpg": "/nikhil-170/portfolioWeb/static/media/gosport.f8495cea.jpg",
@@ -24,8 +24,8 @@
   "entrypoints": [
     "static/js/runtime-main.a560884d.js",
     "static/css/2.a894a7ba.chunk.css",
-    "static/js/2.5833f52a.chunk.js",
+    "static/js/2.09148ced.chunk.js",
     "static/css/main.d80e000c.chunk.css",
-    "static/js/main.30e59363.chunk.js"
+    "static/js/main.3d6602e7.chunk.js"
   ]
 }
